@@ -1,0 +1,32 @@
+programa
+{
+    funcao inicio() 
+    {   
+        cabecalio()
+        declaraVariavel()
+    }
+    
+     
+    funcao cabecalio() 
+    {
+        escreva ("           Bem vindo ao curso de lógica de programação em Portugol\n")
+        escreva ("\n")
+        
+        escreva ("               Aula 02 - Declarando variáveis e tipos de variáveis*\n")
+        escreva ("\n")
+    }
+    
+    
+    funcao declaraVariavel()
+    {
+        inteiro idade = 28
+        real saldo_em_conta = 1000000.00
+        caracter sexo = 'M'
+        cadeia  nome = "Nathan Teles"
+        logico casado = verdadeiro
+        
+        escreva ("O nome do entrevistado é ",nome, ". Ele tem ", idade, " anos de idade, se identifica com o sexo ", sexo,".") 
+        escreva ("\nTem um saldo bancário de ", saldo_em_conta,", e") 
+        escreva (" é casado? ", casado,"\n")
+    }
+}
