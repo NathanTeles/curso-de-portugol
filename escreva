@@ -1,0 +1,24 @@
+programa
+{
+    funcao inicio() 
+    {   
+        cabecalio()
+        exibirTexto()
+    }
+    
+     
+    funcao cabecalio() 
+    {
+        escreva ("           Bem vindo ao curso de lógica de programação em Portugol\n")
+        escreva ("\n")
+        
+        escreva ("               Aula 02 - Exibir texto na tela (Função escreva)*\n")
+        escreva ("\n")
+    }
+    
+    
+    funcao exibirTexto()
+    {
+        escreva ("Ola, Seja bem vindo!\n")
+    }
+}
